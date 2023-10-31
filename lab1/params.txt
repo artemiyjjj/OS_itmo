@@ -1,0 +1,8 @@
+cpu: [parity,euler];
+cache: [l1cache-ways,stream-l3-size];
+io: [ioprio,iomix];
+memory: [memfd-fds,misaligned-method];
+network: [sockdiag,dccp];
+pipe: [oom-pipe,pipe-ops]; 
+sched: [sched-runtime,yield]
+ 
